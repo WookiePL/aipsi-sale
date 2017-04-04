@@ -1,0 +1,23 @@
+
+[Project]
+Owner=Unknown
+Name=Sekcja7
+GUID={8838849A-07E2-49A1-89D5-34DCCD4C3210}
+CQWebURL=
+isTrackChangesAllowed=1
+Description=xDDDDD
+Owner Key=2
+Revision number=1.0001
+Prefix=
+NbrRequirements=0
+Directory=C:\LabAiPSI\Sekcja7\Sekcja7.rqs
+Key=1
+Revision=1.0005
+
+[Application]
+Data file version=1.0041
+Program Version=9.1200.0.1
+
+[Rational Architect]
+EclipseElementProxiesPackageName=Eclipse Element Proxies
+

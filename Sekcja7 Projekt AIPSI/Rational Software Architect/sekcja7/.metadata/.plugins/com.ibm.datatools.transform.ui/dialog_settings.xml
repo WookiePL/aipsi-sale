@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="10" key="TransformWizard_SelectedDefaultLength"/>
+	<item value="false" key="TransformWizard_CreateFromTemplate"/>
+	<item value="Type" key="TransformWizard_SelectedTypeTableSuffix"/>
+	<item value="true" key="TransformWizard_SelectedComments"/>
+	<item value="true" key="TransformWizard_SelectedUpperNameCase"/>
+	<item value="false" key="TransformWizard_SelectedSequence"/>
+	<item value="" key="TransformWizard_SelectedTargetModel"/>
+	<item value="CHAR" key="TransformWizard_SelectedDefaultDataType"/>
+	<item value="true" key="TransformWizard_SelectedGenerateConstraintNames"/>
+	<item value="false" key="TransformWizard_SelectedCreateTraceability"/>
+	<item value="2012" key="TransformWizard_SelectedDatabaseVersion"/>
+	<item value="true" key="TransformWizard_SelectedIdentityColumn"/>
+	<item value="false" key="TransformWizard_SelectedTitleNameCase"/>
+	<item value="_x_" key="TransformWizard_SelectedJoinTableName"/>
+	<item value="true" key="TransformWizard_SelectedNameSource"/>
+	<item value="true" key="TransformWizard_SelectedDependencies"/>
+	<item value="5" key="TransformWizard_SelectedDefaultPrecision"/>
+	<item value="SQL Server" key="TransformWizard_SelectedDatabaseType"/>
+	<item value="true" key="TransformWizard_SelectedAnnotations"/>
+	<item value="false" key="TransformWizard_SelectedLowerNameCase"/>
+	<item value="true" key="TransformWizard_SelectedURLs"/>
+	<item value="C:\Program Files\IBM\IMShared\plugins\com.ibm.datatools.core.ui_3.5.500.v20140108_0825\templates\PhysicalModel\" key="TransformWizard_TemplateFolder"/>
+	<item value="false" key="TransformWizard_SelectedIndex"/>
+	<item value="false" key="TransformWizard_SelectedAppendNewColumns"/>
+	<item value="false" key="TransformWizard_SelectedExistingNameCase"/>
+	<item value="false" key="TransformWizard_SelectedKeyColumnOrder"/>
+	<item value="true" key="TransformWizard_SelectedLabelAsLabelSource"/>
+	<item value="Schema" key="TransformWizard_SelectedSchemaName"/>
+	<item value="true" key="TransformWizard_SelectedCreateDiagrams"/>
+	<item value="false" key="TransformWizard_SelectedNameAsLabelSource"/>
+	<item value="2" key="TransformWizard_SelectedDefaultScale"/>
+	<item value="false" key="TransformWizard_SelectedLabelSource"/>
+</section>

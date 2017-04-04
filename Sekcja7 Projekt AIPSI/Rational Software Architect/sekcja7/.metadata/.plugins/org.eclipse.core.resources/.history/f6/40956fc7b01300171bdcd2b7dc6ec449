@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_TuuvUBOwEeeifeMeiAVZVA" name="domain" targetNamespace="domain.ldm" contents="_TuuvUROwEeeifeMeiAVZVA _TuuvWhOwEeeifeMeiAVZVA _TuuvahOwEeeifeMeiAVZVA _TuuvchOwEeeifeMeiAVZVA _TuuvfBOwEeeifeMeiAVZVA _TuuvihOwEeeifeMeiAVZVA _TuuvkBOwEeeifeMeiAVZVA _TuuvlxOwEeeifeMeiAVZVA _TuuvnBOwEeeifeMeiAVZVA _TuuvpxOwEeeifeMeiAVZVA"/>
+  <LogicalDataModel:Entity xmi:id="_TuuvUROwEeeifeMeiAVZVA" name="Ticket" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvaBOwEeeifeMeiAVZVA _TuuvWROwEeeifeMeiAVZVA" relationships="_TuuvVxOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvUhOwEeeifeMeiAVZVA" name="Ticket Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_TuuvUxOwEeeifeMeiAVZVA" name="clientUser Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_TuuvVBOwEeeifeMeiAVZVA" name="clientClient Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvVROwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvUhOwEeeifeMeiAVZVA" relationshipEnds="_TuuvaBOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvVhOwEeeifeMeiAVZVA" name="ForeignKey1" attributes="_TuuvUxOwEeeifeMeiAVZVA _TuuvVBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvWROwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_TuuvVxOwEeeifeMeiAVZVA" relationshipType="NON_IDENTIFYING" owningEntity="_TuuvUROwEeeifeMeiAVZVA">
+    <relationshipEnds xmi:id="_TuuvWBOwEeeifeMeiAVZVA" verbPhrase="ticket" entity="_TuuvfBOwEeeifeMeiAVZVA" key="_TuuvgxOwEeeifeMeiAVZVA"/>
+    <relationshipEnds xmi:id="_TuuvWROwEeeifeMeiAVZVA" verbPhrase="client" cardinality="ONE" entity="_TuuvUROwEeeifeMeiAVZVA" key="_TuuvVhOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_TuuvWhOwEeeifeMeiAVZVA" name="Employee" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvaROwEeeifeMeiAVZVA" relationships="_TuuvZxOwEeeifeMeiAVZVA" generalizations="_TuuvZhOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvWxOwEeeifeMeiAVZVA" name="fisrtName"/>
+    <attributes xmi:id="_TuuvXBOwEeeifeMeiAVZVA" name="surname"/>
+    <attributes xmi:id="_TuuvXROwEeeifeMeiAVZVA" name="position"/>
+    <attributes xmi:id="_TuuvXhOwEeeifeMeiAVZVA" name="adress"/>
+    <attributes xmi:id="_TuuvXxOwEeeifeMeiAVZVA" name="pesel"/>
+    <attributes xmi:id="_TuuvYBOwEeeifeMeiAVZVA" name="Employee Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_TuuvYROwEeeifeMeiAVZVA" name="User Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_TuuvYhOwEeeifeMeiAVZVA" name="TicketTicket Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvYxOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvYROwEeeifeMeiAVZVA _TuuvYBOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvZBOwEeeifeMeiAVZVA" name="ForeignKey1" attributes="_TuuvYROwEeeifeMeiAVZVA" generalization="_TuuvZhOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvZROwEeeifeMeiAVZVA" name="ForeignKey2" attributes="_TuuvYhOwEeeifeMeiAVZVA" relationshipEnds="_TuuvaROwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Generalization xmi:id="_TuuvZhOwEeeifeMeiAVZVA" name="Generalization 1" supertype="_TuuvahOwEeeifeMeiAVZVA" subtype="_TuuvWhOwEeeifeMeiAVZVA" foreignKey="_TuuvZBOwEeeifeMeiAVZVA" alternateKey="_TuuvcBOwEeeifeMeiAVZVA" generalizationSet="_TuuvcROwEeeifeMeiAVZVA"/>
+  <LogicalDataModel:Relationship xmi:id="_TuuvZxOwEeeifeMeiAVZVA" name="PracownikObsługujeZgłoszenia" relationshipType="NON_IDENTIFYING" owningEntity="_TuuvWhOwEeeifeMeiAVZVA">
+    <relationshipEnds xmi:id="_TuuvaBOwEeeifeMeiAVZVA" verbPhrase="Participant" entity="_TuuvUROwEeeifeMeiAVZVA" key="_TuuvVROwEeeifeMeiAVZVA"/>
+    <relationshipEnds xmi:id="_TuuvaROwEeeifeMeiAVZVA" verbPhrase="Ticket" cardinality="ZERO_TO_MANY" entity="_TuuvWhOwEeeifeMeiAVZVA" key="_TuuvZROwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_TuuvahOwEeeifeMeiAVZVA" name="User" package="_TuuvUBOwEeeifeMeiAVZVA" specializations="_TuuvZhOwEeeifeMeiAVZVA _TuuvhhOwEeeifeMeiAVZVA" defaultSet="_TuuvcROwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvaxOwEeeifeMeiAVZVA" name="username"/>
+    <attributes xmi:id="_TuuvbBOwEeeifeMeiAVZVA" name="password"/>
+    <attributes xmi:id="_TuuvbROwEeeifeMeiAVZVA" name="email"/>
+    <attributes xmi:id="_TuuvbhOwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvbxOwEeeifeMeiAVZVA" name="User Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvcBOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvbxOwEeeifeMeiAVZVA" generalization="_TuuvZhOwEeeifeMeiAVZVA _TuuvhhOwEeeifeMeiAVZVA"/>
+    <generalizationSets xmi:id="_TuuvcROwEeeifeMeiAVZVA" name="Generalization Set 1" generalizations="_TuuvZhOwEeeifeMeiAVZVA _TuuvhhOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_TuuvchOwEeeifeMeiAVZVA" name="Company" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvpROwEeeifeMeiAVZVA _TuuviBOwEeeifeMeiAVZVA _TuuvexOwEeeifeMeiAVZVA" relationships="_TuuveROwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvcxOwEeeifeMeiAVZVA" name="name"/>
+    <attributes xmi:id="_TuuvdBOwEeeifeMeiAVZVA" name="NIP"/>
+    <attributes xmi:id="_TuuvdROwEeeifeMeiAVZVA" name="Company Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_TuuvdhOwEeeifeMeiAVZVA" name="departmentDepartment Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvdxOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvdROwEeeifeMeiAVZVA" relationshipEnds="_TuuvpROwEeeifeMeiAVZVA _TuuviBOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuveBOwEeeifeMeiAVZVA" name="ForeignKey1" attributes="_TuuvdhOwEeeifeMeiAVZVA" relationshipEnds="_TuuvexOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_TuuveROwEeeifeMeiAVZVA" relationshipType="NON_IDENTIFYING" owningEntity="_TuuvchOwEeeifeMeiAVZVA">
+    <relationshipEnds xmi:id="_TuuvehOwEeeifeMeiAVZVA" verbPhrase="company" entity="_TuuvkBOwEeeifeMeiAVZVA" key="_TuuvlhOwEeeifeMeiAVZVA"/>
+    <relationshipEnds xmi:id="_TuuvexOwEeeifeMeiAVZVA" verbPhrase="department" cardinality="ONE" entity="_TuuvchOwEeeifeMeiAVZVA" key="_TuuveBOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_TuuvfBOwEeeifeMeiAVZVA" name="Client" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvWBOwEeeifeMeiAVZVA _TuuviROwEeeifeMeiAVZVA" relationships="_TuuvhxOwEeeifeMeiAVZVA" generalizations="_TuuvhhOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvfROwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvfhOwEeeifeMeiAVZVA" name="firstName"/>
+    <attributes xmi:id="_TuuvfxOwEeeifeMeiAVZVA" name="surname"/>
+    <attributes xmi:id="_TuuvgBOwEeeifeMeiAVZVA" name="Client Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_TuuvgROwEeeifeMeiAVZVA" name="User Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_TuuvghOwEeeifeMeiAVZVA" name="companyCompany Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvgxOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvgROwEeeifeMeiAVZVA _TuuvgBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvWBOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvhBOwEeeifeMeiAVZVA" name="ForeignKey1" attributes="_TuuvgROwEeeifeMeiAVZVA" generalization="_TuuvhhOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvhROwEeeifeMeiAVZVA" name="ForeignKey2" attributes="_TuuvghOwEeeifeMeiAVZVA" relationshipEnds="_TuuviROwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Generalization xmi:id="_TuuvhhOwEeeifeMeiAVZVA" name="Generalization 2" supertype="_TuuvahOwEeeifeMeiAVZVA" subtype="_TuuvfBOwEeeifeMeiAVZVA" foreignKey="_TuuvhBOwEeeifeMeiAVZVA" alternateKey="_TuuvcBOwEeeifeMeiAVZVA" generalizationSet="_TuuvcROwEeeifeMeiAVZVA"/>
+  <LogicalDataModel:Relationship xmi:id="_TuuvhxOwEeeifeMeiAVZVA" relationshipType="NON_IDENTIFYING" owningEntity="_TuuvfBOwEeeifeMeiAVZVA">
+    <relationshipEnds xmi:id="_TuuviBOwEeeifeMeiAVZVA" verbPhrase="client" entity="_TuuvchOwEeeifeMeiAVZVA" key="_TuuvdxOwEeeifeMeiAVZVA"/>
+    <relationshipEnds xmi:id="_TuuviROwEeeifeMeiAVZVA" verbPhrase="company" cardinality="ONE" entity="_TuuvfBOwEeeifeMeiAVZVA" key="_TuuvhROwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_TuuvihOwEeeifeMeiAVZVA" name="Role" package="_TuuvUBOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvixOwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvjBOwEeeifeMeiAVZVA" name="name"/>
+    <attributes xmi:id="_TuuvjROwEeeifeMeiAVZVA" name="code"/>
+    <attributes xmi:id="_TuuvjhOwEeeifeMeiAVZVA" name="Role Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvjxOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvjhOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_TuuvkBOwEeeifeMeiAVZVA" name="Department" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvehOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvkROwEeeifeMeiAVZVA" name="name"/>
+    <attributes xmi:id="_TuuvkhOwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvkxOwEeeifeMeiAVZVA" name="address"/>
+    <attributes xmi:id="_TuuvlBOwEeeifeMeiAVZVA" name="contact"/>
+    <attributes xmi:id="_TuuvlROwEeeifeMeiAVZVA" name="Department Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvlhOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvlROwEeeifeMeiAVZVA" relationshipEnds="_TuuvehOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_TuuvlxOwEeeifeMeiAVZVA" name="SystemHistory" package="_TuuvUBOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvmBOwEeeifeMeiAVZVA" name="action"/>
+    <attributes xmi:id="_TuuvmROwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvmhOwEeeifeMeiAVZVA" name="SystemHistory Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvmxOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvmhOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_TuuvnBOwEeeifeMeiAVZVA" name="SLA" package="_TuuvUBOwEeeifeMeiAVZVA" relationshipEnds="_TuuvphOwEeeifeMeiAVZVA" relationships="_TuuvpBOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvnROwEeeifeMeiAVZVA" name="realizationTime"/>
+    <attributes xmi:id="_TuuvnhOwEeeifeMeiAVZVA" name="significance"/>
+    <attributes xmi:id="_TuuvnxOwEeeifeMeiAVZVA" name="priority"/>
+    <attributes xmi:id="_TuuvoBOwEeeifeMeiAVZVA" name="SLA Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_TuuvoROwEeeifeMeiAVZVA" name="firmaCompany Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvohOwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvoBOwEeeifeMeiAVZVA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_TuuvoxOwEeeifeMeiAVZVA" name="ForeignKey1" attributes="_TuuvoROwEeeifeMeiAVZVA" relationshipEnds="_TuuvphOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_TuuvpBOwEeeifeMeiAVZVA" relationshipType="NON_IDENTIFYING" owningEntity="_TuuvnBOwEeeifeMeiAVZVA">
+    <relationshipEnds xmi:id="_TuuvpROwEeeifeMeiAVZVA" verbPhrase="sLA" entity="_TuuvchOwEeeifeMeiAVZVA" key="_TuuvdxOwEeeifeMeiAVZVA"/>
+    <relationshipEnds xmi:id="_TuuvphOwEeeifeMeiAVZVA" verbPhrase="firma" cardinality="ONE" entity="_TuuvnBOwEeeifeMeiAVZVA" key="_TuuvoxOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_TuuvpxOwEeeifeMeiAVZVA" name="Comment" package="_TuuvUBOwEeeifeMeiAVZVA">
+    <attributes xmi:id="_TuuvqBOwEeeifeMeiAVZVA" name="id"/>
+    <attributes xmi:id="_TuuvqROwEeeifeMeiAVZVA" name="text"/>
+    <attributes xmi:id="_TuuvqhOwEeeifeMeiAVZVA" name="date"/>
+    <attributes xmi:id="_TuuvqxOwEeeifeMeiAVZVA" name="type"/>
+    <attributes xmi:id="_TuuvrBOwEeeifeMeiAVZVA" name="Comment Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_TuuvrROwEeeifeMeiAVZVA" name="PrimaryKey" attributes="_TuuvrBOwEeeifeMeiAVZVA"/>
+  </LogicalDataModel:Entity>
+</xmi:XMI>

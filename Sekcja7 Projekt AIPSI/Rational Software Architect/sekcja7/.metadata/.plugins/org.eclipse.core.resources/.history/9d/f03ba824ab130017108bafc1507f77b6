@@ -1,0 +1,93 @@
+/**
+ * 
+ */
+package DesignBuildingBlocks.pl.polsl.aipsi.domain;
+
+/** 
+ * <!-- begin-UML-doc -->
+ * <!-- end-UML-doc -->
+ * @author Administrator
+ * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+ */
+public class Klient extends U?ytkownik {
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private Object Id;
+
+	/** 
+	 * @return the Id
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Object getId() {
+		// begin-user-code
+		return Id;
+		// end-user-code
+	}
+
+	/** 
+	 * @param Id the Id to set
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setId(Object Id) {
+		// begin-user-code
+		this.Id = Id;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private Object Imie;
+
+	/** 
+	 * @return the Imie
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Object getImie() {
+		// begin-user-code
+		return Imie;
+		// end-user-code
+	}
+
+	/** 
+	 * @param Imie the Imie to set
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setImie(Object Imie) {
+		// begin-user-code
+		this.Imie = Imie;
+		// end-user-code
+	}
+
+	/** 
+	 * <!-- begin-UML-doc -->
+	 * <!-- end-UML-doc -->
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	private Object Nazwisko;
+
+	/** 
+	 * @return the Nazwisko
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public Object getNazwisko() {
+		// begin-user-code
+		return Nazwisko;
+		// end-user-code
+	}
+
+	/** 
+	 * @param Nazwisko the Nazwisko to set
+	 * @generated "UML to Java (com.ibm.xtools.transform.uml2.java5.internal.UML2JavaTransform)"
+	 */
+	public void setNazwisko(Object Nazwisko) {
+		// begin-user-code
+		this.Nazwisko = Nazwisko;
+		// end-user-code
+	}
+}
