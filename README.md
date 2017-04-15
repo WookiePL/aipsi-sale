@@ -11,17 +11,19 @@ Co ma zawierać sprawko?
 
 Szczegóły:
 1. dokument wizji (VISION.doc) na podstawie szablonu z RequisitePro
-2. OK - wykaz właściwości produktu
-3. OK - macierz zależności pomiędzy właściwościami produktu 
-4. OK - model przypadków użycia (RequisitePro lub RSA) 
-5. OK - model zależności pomiędzy przypadkami a właściwościami
-6. specykifację przynajmniej jednego przypadku użycia w postaci tesktowej na podstawie szablonu w Requisite Pro oraz w postaci diagramów aktywności.
+2. OK [DP] - wykaz właściwości produktu
+3. OK [DP] - macierz zależności pomiędzy właściwościami produktu 
+4. OK [DP] - model przypadków użycia (RequisitePro lub RSA) 
+5. OK [DP] - model zależności pomiędzy przypadkami a właściwościami
+6. specykifację przynajmniej jednego przypadku użycia w postaci tesktowej na podstawie szablonu w Requisite Pro.
+    6.1. OK [DP] - w postaci diagramów aktywności 
 7. model dziedziny ( wpostaci diagramu klas)
 8. diagram pokazujący powiązane pomiędzy aktorami a klasami projektowymi przechowującymi informacje o tych aktorach
 9. realizację przynajmniej jednego przypadku użycia opisaną diagramem klas przedstawiającym uczestników oraz diagramami sekwencji  przedstawiającymi współpracę tych uczestników
-10. diagramy klas dla innych warstw niż warstwa dziedziny przynajmniej w zakresie wymaganym do specyfikacji realizacji opisywanego przypadku użycia
-11. opis zmian stanu niebanalnej klasy w postaci maszyny stanowej
+10. OK [DP] \(formatki\) diagramy klas dla innych warstw niż warstwa dziedziny przynajmniej w zakresie wymaganym do specyfikacji realizacji opisywanego przypadku użycia
+11. OK [DP] - opis zmian stanu niebanalnej klasy w postaci maszyny stanowej
 12. użycie przynajmniej trzech wzorców projektowych (należy wykorzystać wsparcie RSA dla wzorców)
+
 13. wygenerowany kod w języku Java (przynajmniej dla modelu dziedziny)
 14. wygenerowany projekt bazy danych
 15. wygenerowany skrypt SQL

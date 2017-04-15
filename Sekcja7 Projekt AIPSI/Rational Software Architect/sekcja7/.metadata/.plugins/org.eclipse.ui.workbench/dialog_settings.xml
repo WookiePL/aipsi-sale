@@ -4,12 +4,16 @@
 		<item value="1440" key="dialogWidth"/>
 		<item value="692" key="dialogHeight"/>
 		<list key="orderedProviders">
+			<item value="org.eclipse.e4.ui.parts"/>
 		</list>
 		<list key="textArray">
+			<item value="plug"/>
 		</list>
 		<list key="orderedElements">
+			<item value="org.eclipse.pde.ui.PluginsView"/>
 		</list>
 		<list key="textEntries">
+			<item value="1"/>
 		</list>
 	</section>
 	<section name="NewWizardAction">
@@ -22,11 +26,13 @@
 		<item value="280" key="DIALOG_WIDTH"/>
 		<item value="com.ibm.xtools.patterns.ui.views.explorer.PatternExplorer" key="ShowViewDialog.STORE_SELECTED_VIEW_ID"/>
 		<item value="201" key="DIALOG_Y_ORIGIN"/>
-		<item value="414" key="DIALOG_HEIGHT"/>
 		<item value="824" key="DIALOG_X_ORIGIN"/>
+		<item value="414" key="DIALOG_HEIGHT"/>
 		<item value="1|Tahoma|8.25|0|WINDOWS|1|-11|0|0|0|400|0|0|0|1|0|0|0|0|Tahoma" key="DIALOG_FONT_NAME"/>
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="com.ibm.xtools.modeling"/>
 		</list>
+	</section>
+	<section name="ImportExportAction">
 	</section>
 </section>
