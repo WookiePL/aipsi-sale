@@ -15,7 +15,7 @@ Szczegóły:
 3. OK [DP] - macierz zależności pomiędzy właściwościami produktu 
 4. OK [DP] - model przypadków użycia (RequisitePro lub RSA) 
 5. OK [DP] - model zależności pomiędzy przypadkami a właściwościami
-6. specykifację przynajmniej jednego przypadku użycia w postaci tesktowej na podstawie szablonu w Requisite Pro.
+6. OK [ŁJ MP] specykifację przynajmniej jednego przypadku użycia w postaci tesktowej na podstawie szablonu w Requisite Pro.
     6.1. OK [DP] - w postaci diagramów aktywności 
 7. model dziedziny ( wpostaci diagramu klas)
 8. diagram pokazujący powiązane pomiędzy aktorami a klasami projektowymi przechowującymi informacje o tych aktorach
