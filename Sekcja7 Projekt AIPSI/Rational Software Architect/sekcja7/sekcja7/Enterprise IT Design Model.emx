@@ -2223,7 +2223,7 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_ev_MAnxYEeePBN8wVRHnrw" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_ev_MAXxYEeePBN8wVRHnrw" value="1"/>
             </ownedAttribute>
-            <ownedOperation xmi:id="_Yl7X8A5DEeexf9w0naj0Fg" name="Nowe zgłoszenie"/>
+            <ownedOperation xmi:id="_Yl7X8A5DEeexf9w0naj0Fg" name="NoweZgloszenie"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_qED1AA4-Eeexf9w0naj0Fg" name="Employee">
             <generalization xmi:id="_JTPeUBOkEeeQJoHjL2fNOA" general="_pV--4BOgEeeQJoHjL2fNOA"/>

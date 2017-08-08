@@ -1,0 +1,20 @@
+----------------------------------------------------------------
+2017-08-08 19:22:41.219 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.1.1 - (764942): instance c013800d-015d-c34c-907d-000011b32587
+on database directory C:\Documents and Settings\Administrator\MyDB  
+
+Database Class Loader started - derby.database.classpath=''
+
+2017-08-08 19:22:42.481 GMT:
+Shutting down instance c013800d-015d-c34c-907d-000011b32587
+----------------------------------------------------------------
+----------------------------------------------------------------
+2017-08-08 19:22:49.271 GMT:
+ Booting Derby version The Apache Software Foundation - Apache Derby - 10.5.1.1 - (764942): instance aa7ac093-015d-c34c-907d-000011b32587
+on database directory C:\Documents and Settings\Administrator\MyDB  
+
+Database Class Loader started - derby.database.classpath=''
+
+2017-08-08 19:34:22.367 GMT:
+Shutting down instance aa7ac093-015d-c34c-907d-000011b32587
+----------------------------------------------------------------
