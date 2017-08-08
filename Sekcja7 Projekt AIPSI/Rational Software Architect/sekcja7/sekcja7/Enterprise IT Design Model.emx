@@ -1069,7 +1069,73 @@
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_DxOM8A4-Eeexf9w0naj0Fg" type="Stereotype" element="_DxONAw4-Eeexf9w0naj0Fg"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_DxOM8Q4-Eeexf9w0naj0Fg" type="Name" element="_DxONAw4-Eeexf9w0naj0Fg"/>
               <children xmi:type="notation:BasicDecorationNode" xmi:id="_DxOM8g4-Eeexf9w0naj0Fg" type="Parent"/>
-              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_DxOM8w4-Eeexf9w0naj0Fg" type="PackageContents"/>
+              <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_DxOM8w4-Eeexf9w0naj0Fg" type="PackageContents">
+                <children xmi:type="patternNotation:PatternUINode" xmi:id="_Duc5UHxNEeefub9U69jqyw" element="_3HIHoBOtEeeQJoHjL2fNOA">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_DuptoHxNEeefub9U69jqyw" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_DuptoXxNEeefub9U69jqyw" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DuptonxNEeefub9U69jqyw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Dupto3xNEeefub9U69jqyw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_DuptpHxNEeefub9U69jqyw" type="Parent"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_DuptpXxNEeefub9U69jqyw" visible="false" type="AttributeCompartment"/>
+                  <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Duv0QHxNEeefub9U69jqyw" type="CollaborationCompartment"/>
+                  <children xmi:type="notation:ListCompartment" xmi:id="_Duv0QXxNEeefub9U69jqyw" type="Patterns Pattern Instances">
+                    <children xmi:type="patternNotation:PatternUINode" xmi:id="_Du164HxNEeefub9U69jqyw" type="Patterns Pattern Instance Name">
+                      <children xmi:type="notation:ListCompartment" xmi:id="_Du1643xNEeefub9U69jqyw" type="Patterns Template Argument List">
+                        <children xmi:type="patternNotation:PatternUINode" xmi:id="_Dw2GAHxNEeefub9U69jqyw" type="Patterns Parameter And Value List">
+                          <children xmi:type="patternNotation:PatternUINode" xmi:id="_Dw2GB3xNEeefub9U69jqyw" type="Patterns Template ArgumentCompartment">
+                            <children xmi:type="patternNotation:PatternUINode" xmi:id="_Dw2GDnxNEeefub9U69jqyw" type="Patterns Template Argument">
+                              <patternInstanceId xmi:id="_Dw2GD3xNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.framework.uml2.AbstractPatternInstance$Default@cc6093cd"/>
+                              <parameterId xmi:id="_Dw2GEHxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.content.gof.creational.singleton.SingletonPattern$SingletonParameter"/>
+                            </children>
+                            <styles xmi:type="notation:DrawerStyle" xmi:id="_Dw2GCHxNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:TitleStyle" xmi:id="_Dw2GCXxNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dw2GCnxNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_Dw2GC3xNEeefub9U69jqyw"/>
+                            <patternInstanceId xmi:id="_Dw2GDHxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.framework.uml2.AbstractPatternInstance$Default@cc6093cd"/>
+                            <parameterId xmi:id="_Dw2GDXxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.content.gof.creational.singleton.SingletonPattern$SingletonParameter"/>
+                          </children>
+                          <children xmi:type="patternNotation:PatternUINode" xmi:id="_Dw2GEXxNEeefub9U69jqyw" type="Patterns Template Argument ValueCompartment">
+                            <styles xmi:type="notation:DrawerStyle" xmi:id="_Dw2GEnxNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:TitleStyle" xmi:id="_Dw2GE3xNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:FilteringStyle" xmi:id="_Dw2GFHxNEeefub9U69jqyw"/>
+                            <styles xmi:type="notation:SortingStyle" xmi:id="_Dw2GFXxNEeefub9U69jqyw"/>
+                            <patternInstanceId xmi:id="_Dw2GFnxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.framework.uml2.AbstractPatternInstance$Default@cc6093cd"/>
+                            <parameterId xmi:id="_Dw2GF3xNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.content.gof.creational.singleton.SingletonPattern$SingletonParameter"/>
+                          </children>
+                          <styles xmi:type="notation:DrawerStyle" xmi:id="_Dw2GAXxNEeefub9U69jqyw"/>
+                          <styles xmi:type="notation:TitleStyle" xmi:id="_Dw2GAnxNEeefub9U69jqyw"/>
+                          <styles xmi:type="notation:FilteringStyle" xmi:id="_Dw2GA3xNEeefub9U69jqyw"/>
+                          <styles xmi:type="notation:SortingStyle" xmi:id="_Dw2GBHxNEeefub9U69jqyw"/>
+                          <patternInstanceId xmi:id="_Dw2GBXxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.framework.uml2.AbstractPatternInstance$Default@cc6093cd"/>
+                          <parameterId xmi:id="_Dw2GBnxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.content.gof.creational.singleton.SingletonPattern$SingletonParameter"/>
+                        </children>
+                      </children>
+                      <styles xmi:type="notation:DrawerStyle" xmi:id="_Du164XxNEeefub9U69jqyw"/>
+                      <patternInstanceId xmi:id="_Du164nxNEeefub9U69jqyw" name="Singleton" code="com.ibm.xtools.patterns.framework.uml2.AbstractPatternInstance$Default@ce5663fe"/>
+                    </children>
+                  </children>
+                  <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Duv0QnxNEeefub9U69jqyw" visible="false" type="Patterns Overview"/>
+                  <styles xmi:type="notation:ShapeStyle" xmi:id="_Duc5UXxNEeefub9U69jqyw" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1"/>
+                  <styles xmi:type="umlnotation:UMLShapeStyle" xmi:id="_Duc5UnxNEeefub9U69jqyw" showStereotype="Label"/>
+                  <styles xmi:type="patternNotation:PatternParameterStyle" xmi:id="_Duc5U3xNEeefub9U69jqyw"/>
+                  <styles xmi:type="patternNotation:PatternShapeStyle" xmi:id="_Duc5VHxNEeefub9U69jqyw"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Duc5VXxNEeefub9U69jqyw" x="462" y="3965"/>
+                </children>
+                <children xmi:type="umlnotation:UMLShape" xmi:id="_Duv0Q3xNEeefub9U69jqyw" element="_8_zLMBOtEeeQJoHjL2fNOA" fontHeight="8" transparency="0" lineColor="14263149" lineWidth="1" showStereotype="Label">
+                  <children xmi:type="notation:DecorationNode" xmi:id="_Duv0RXxNEeefub9U69jqyw" type="ImageCompartment">
+                    <layoutConstraint xmi:type="notation:Size" xmi:id="_Duv0RnxNEeefub9U69jqyw" width="1320" height="1320"/>
+                  </children>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Duv0R3xNEeefub9U69jqyw" type="Stereotype"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Duv0SHxNEeefub9U69jqyw" type="Name"/>
+                  <children xmi:type="notation:BasicDecorationNode" xmi:id="_Duv0SXxNEeefub9U69jqyw" type="Parent"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Duv0SnxNEeefub9U69jqyw" type="AttributeCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Duv0S3xNEeefub9U69jqyw" type="OperationCompartment"/>
+                  <children xmi:type="notation:SemanticListCompartment" xmi:id="_Duv0THxNEeefub9U69jqyw" visible="false" type="SignalCompartment"/>
+                  <children xmi:type="umlnotation:UMLShapeCompartment" xmi:id="_Duv0TXxNEeefub9U69jqyw" visible="false" type="StructureCompartment"/>
+                  <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Duv0RHxNEeefub9U69jqyw"/>
+                </children>
+              </children>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DxOM9A4-Eeexf9w0naj0Fg" x="7950" y="5406"/>
             </children>
           </contents>
@@ -1566,7 +1632,9 @@
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_5wvDphOsEeeQJoHjL2fNOA" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_5wvDpROsEeeQJoHjL2fNOA" value="1"/>
             </ownedAttribute>
-            <ownedAttribute xmi:id="_oG_hMCIPEeep5bkiU_iXWA" name="id" visibility="private"/>
+            <ownedAttribute xmi:id="_oG_hMCIPEeep5bkiU_iXWA" name="id" visibility="private">
+              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
+            </ownedAttribute>
             <ownedAttribute xmi:id="_qGZNICIPEeep5bkiU_iXWA" name="timeOfRealization" visibility="private"/>
             <ownedAttribute xmi:id="_cdZLYCIQEeep5bkiU_iXWA" name="overalTime" visibility="private"/>
             <ownedAttribute xmi:id="_pndY8CIQEeep5bkiU_iXWA" name="attachment" visibility="private" type="_fv424CIQEeep5bkiU_iXWA" aggregation="shared" association="_pnXSUCIQEeep5bkiU_iXWA">
@@ -1585,6 +1653,7 @@
             <ownedAttribute xmi:id="_vE6GABOfEeeQJoHjL2fNOA" name="surname" visibility="private"/>
             <ownedAttribute xmi:id="_xM5tQBOfEeeQJoHjL2fNOA" name="adress" visibility="private"/>
             <ownedAttribute xmi:id="_2aOGsBOfEeeQJoHjL2fNOA" name="pesel" visibility="private"/>
+            <ownedAttribute xmi:id="_xth1EHxNEeefub9U69jqyw" name="id" visibility="private"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_pV--4BOgEeeQJoHjL2fNOA" name="User">
             <ownedAttribute xmi:id="_zsyaoBOgEeeQJoHjL2fNOA" name="username" visibility="private"/>
@@ -1606,6 +1675,9 @@
             <ownedAttribute xmi:id="_-QGx8BOsEeeQJoHjL2fNOA" name="department" visibility="private" type="_z-T2MBOlEeeQJoHjL2fNOA" association="_-QArUBOsEeeQJoHjL2fNOA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-QGx8hOsEeeQJoHjL2fNOA" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-QGx8ROsEeeQJoHjL2fNOA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_xH6KEHxOEeefub9U69jqyw" name="id" visibility="private">
+              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_uFgzoBOhEeeQJoHjL2fNOA" name="Client">
@@ -1629,7 +1701,9 @@
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_z-T2MBOlEeeQJoHjL2fNOA" name="Department">
             <ownedAttribute xmi:id="_00XUcBOlEeeQJoHjL2fNOA" name="name" visibility="private"/>
-            <ownedAttribute xmi:id="_1cMJcBOlEeeQJoHjL2fNOA" name="id" visibility="private"/>
+            <ownedAttribute xmi:id="_1cMJcBOlEeeQJoHjL2fNOA" name="id" visibility="private">
+              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
+            </ownedAttribute>
             <ownedAttribute xmi:id="_2JvzABOlEeeQJoHjL2fNOA" name="address" visibility="private"/>
             <ownedAttribute xmi:id="_BlQawBOrEeeQJoHjL2fNOA" name="contact" visibility="private"/>
             <ownedAttribute xmi:id="_-QArUROsEeeQJoHjL2fNOA" name="company" visibility="private" type="_tQyAgBOgEeeQJoHjL2fNOA" association="_-QArUBOsEeeQJoHjL2fNOA">
@@ -1646,6 +1720,9 @@
             <ownedAttribute xmi:id="_U1hHUBOnEeeQJoHjL2fNOA" name="firma" visibility="private" type="_tQyAgBOgEeeQJoHjL2fNOA" association="_U1bAsBOnEeeQJoHjL2fNOA">
               <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_U1hHUhOnEeeQJoHjL2fNOA" value="1"/>
               <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_U1hHUROnEeeQJoHjL2fNOA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:id="_yMMRkHxOEeefub9U69jqyw" name="id" visibility="private">
+              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
             </ownedAttribute>
           </packagedElement>
           <packagedElement xmi:type="uml:Association" xmi:id="_U1bAsBOnEeeQJoHjL2fNOA" memberEnd="_U1bAsROnEeeQJoHjL2fNOA _U1hHUBOnEeeQJoHjL2fNOA"/>
@@ -1671,7 +1748,9 @@
             <ownedAttribute xmi:id="_VKkeACIQEeep5bkiU_iXWA" name="name" visibility="private"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_WFGzoCIQEeep5bkiU_iXWA" name="Priority">
-            <ownedAttribute xmi:id="_XcNwgCIQEeep5bkiU_iXWA" name="id" visibility="private"/>
+            <ownedAttribute xmi:id="_XcNwgCIQEeep5bkiU_iXWA" name="id" visibility="private">
+              <type xmi:type="uml:Class" href="pathmap://ROSE_LIBRARIES/RoseJavaDatatypes.emx#_Q6HzWAddEdm1Sa24K-Ukow?RoseJavaDatatypes/java/lang/Integer?"/>
+            </ownedAttribute>
             <ownedAttribute xmi:id="_YMJ_sCIQEeep5bkiU_iXWA" name="name" visibility="private"/>
           </packagedElement>
           <packagedElement xmi:type="uml:Class" xmi:id="_fv424CIQEeep5bkiU_iXWA" name="Attachment">
