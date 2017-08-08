@@ -326,3 +326,28 @@ java.lang.ClassCastException: org.eclipse.gmf.runtime.diagram.ui.figures.LabelLo
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:584)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1438)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1414)
+!SESSION 2017-08-08 10:26:56.803 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows Server 2003 x86-32 20130306_140761 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR4_FP1_20130306_1011_B140761
+JIT  - r11.b03_20130131_32403ifx1
+GC   - R26_Java726_SR4_FP1_20130306_1011_B140761
+J9CL - 20130306_140761
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v90.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v90.ide
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2017-08-08 10:27:18.425
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-08 10:27:18.515
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-08 10:45:07.807
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-08 10:45:07.827
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-08 10:58:05.831
+!MESSAGE LUM license expired for productID 47: Past the expiration date on license.
