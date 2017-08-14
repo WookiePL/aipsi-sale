@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:LogicalDataModel="http:///com/ibm/db/models/logical/logical.ecore">
+  <LogicalDataModel:Package xmi:id="_eSutoHxrEeelUbF9Rk4SIA" name="domain" targetNamespace="domain.ldm" contents="_eSutoXxrEeelUbF9Rk4SIA _eSutt3xrEeelUbF9Rk4SIA _eSutvXxrEeelUbF9Rk4SIA _eSutwXxrEeelUbF9Rk4SIA _eSutyXxrEeelUbF9Rk4SIA _eSut1HxrEeelUbF9Rk4SIA _eSut3XxrEeelUbF9Rk4SIA _eSut4HxrEeelUbF9Rk4SIA _eSut6HxrEeelUbF9Rk4SIA _eSut-nxrEeelUbF9Rk4SIA _eSuuAnxrEeelUbF9Rk4SIA _eSuuBXxrEeelUbF9Rk4SIA _eSuuCHxrEeelUbF9Rk4SIA"/>
+  <LogicalDataModel:Entity xmi:id="_eSutoXxrEeelUbF9Rk4SIA" name="Ticket" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSutrXxrEeelUbF9Rk4SIA _eSuuEHxrEeelUbF9Rk4SIA _eSuuAHxrEeelUbF9Rk4SIA _eSutsHxrEeelUbF9Rk4SIA _eSuts3xrEeelUbF9Rk4SIA _eSuttnxrEeelUbF9Rk4SIA" relationships="_eSutq3xrEeelUbF9Rk4SIA _eSutrnxrEeelUbF9Rk4SIA _eSutsXxrEeelUbF9Rk4SIA _eSuttHxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSutonxrEeelUbF9Rk4SIA" name="Ticket Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSuto3xrEeelUbF9Rk4SIA" name="significanceSignificance Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSutpHxrEeelUbF9Rk4SIA" name="priorityPriority Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSutpXxrEeelUbF9Rk4SIA" name="clientUser Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSutpnxrEeelUbF9Rk4SIA" name="clientClient Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSutp3xrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSutonxrEeelUbF9Rk4SIA" relationshipEnds="_eSuuEHxrEeelUbF9Rk4SIA _eSuuAHxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutqHxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSuto3xrEeelUbF9Rk4SIA" relationshipEnds="_eSuts3xrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutqXxrEeelUbF9Rk4SIA" name="ForeignKey2" attributes="_eSutpHxrEeelUbF9Rk4SIA" relationshipEnds="_eSuttnxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutqnxrEeelUbF9Rk4SIA" name="ForeignKey3" attributes="_eSutpXxrEeelUbF9Rk4SIA _eSutpnxrEeelUbF9Rk4SIA" relationshipEnds="_eSutrXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSutq3xrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSutoXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSutrHxrEeelUbF9Rk4SIA" verbPhrase="ticket" entity="_eSutyXxrEeelUbF9Rk4SIA" key="_eSutzXxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSutrXxrEeelUbF9Rk4SIA" verbPhrase="client" cardinality="ONE" entity="_eSutoXxrEeelUbF9Rk4SIA" key="_eSutqnxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSutrnxrEeelUbF9Rk4SIA" relationshipType="NON_SPECIFIC" existenceOptional="true" owningEntity="_eSutoXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSutr3xrEeelUbF9Rk4SIA" verbPhrase="ticket" cardinality="ZERO_TO_MANY" entity="_eSutt3xrEeelUbF9Rk4SIA" key="_eSutunxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSutsHxrEeelUbF9Rk4SIA" verbPhrase="employee" cardinality="ZERO_TO_MANY" entity="_eSutoXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSutsXxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSutoXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSutsnxrEeelUbF9Rk4SIA" verbPhrase="ticket" entity="_eSuuAnxrEeelUbF9Rk4SIA" key="_eSuuBHxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSuts3xrEeelUbF9Rk4SIA" verbPhrase="significance" cardinality="ZERO_TO_MANY" entity="_eSutoXxrEeelUbF9Rk4SIA" key="_eSutqHxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSuttHxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSutoXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSuttXxrEeelUbF9Rk4SIA" verbPhrase="ticket" entity="_eSuuBXxrEeelUbF9Rk4SIA" key="_eSuuB3xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSuttnxrEeelUbF9Rk4SIA" verbPhrase="priority" cardinality="ZERO_TO_MANY" entity="_eSutoXxrEeelUbF9Rk4SIA" key="_eSutqXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSutt3xrEeelUbF9Rk4SIA" name="Employee" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut23xrEeelUbF9Rk4SIA _eSutr3xrEeelUbF9Rk4SIA" generalizations="_eSutvHxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSutuHxrEeelUbF9Rk4SIA" name="Employee Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSutuXxrEeelUbF9Rk4SIA" name="User Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSutunxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSutuXxrEeelUbF9Rk4SIA _eSutuHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut23xrEeelUbF9Rk4SIA _eSutr3xrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutu3xrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSutuXxrEeelUbF9Rk4SIA" generalization="_eSutvHxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Generalization xmi:id="_eSutvHxrEeelUbF9Rk4SIA" name="Generalization 1" supertype="_eSutvXxrEeelUbF9Rk4SIA" subtype="_eSutt3xrEeelUbF9Rk4SIA" foreignKey="_eSutu3xrEeelUbF9Rk4SIA" alternateKey="_eSutv3xrEeelUbF9Rk4SIA" generalizationSet="_eSutwHxrEeelUbF9Rk4SIA"/>
+  <LogicalDataModel:Entity xmi:id="_eSutvXxrEeelUbF9Rk4SIA" name="User" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut5nxrEeelUbF9Rk4SIA" specializations="_eSutvHxrEeelUbF9Rk4SIA _eSut0HxrEeelUbF9Rk4SIA" defaultSet="_eSutwHxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSutvnxrEeelUbF9Rk4SIA" name="User Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSutv3xrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSutvnxrEeelUbF9Rk4SIA" relationshipEnds="_eSut5nxrEeelUbF9Rk4SIA" generalization="_eSutvHxrEeelUbF9Rk4SIA _eSut0HxrEeelUbF9Rk4SIA"/>
+    <generalizationSets xmi:id="_eSutwHxrEeelUbF9Rk4SIA" name="Generalization Set 1" generalizations="_eSutvHxrEeelUbF9Rk4SIA _eSut0HxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_eSutwXxrEeelUbF9Rk4SIA" name="Company" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut8nxrEeelUbF9Rk4SIA _eSut0nxrEeelUbF9Rk4SIA _eSutyHxrEeelUbF9Rk4SIA" relationships="_eSutxnxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSutwnxrEeelUbF9Rk4SIA" name="Company Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSutw3xrEeelUbF9Rk4SIA" name="departmentDepartment Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSutxHxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSutwnxrEeelUbF9Rk4SIA" relationshipEnds="_eSut8nxrEeelUbF9Rk4SIA _eSut0nxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutxXxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSutw3xrEeelUbF9Rk4SIA" relationshipEnds="_eSutyHxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSutxnxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSutwXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSutx3xrEeelUbF9Rk4SIA" verbPhrase="company" entity="_eSut3XxrEeelUbF9Rk4SIA" key="_eSut33xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSutyHxrEeelUbF9Rk4SIA" verbPhrase="department" cardinality="ONE" entity="_eSutwXxrEeelUbF9Rk4SIA" key="_eSutxXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSutyXxrEeelUbF9Rk4SIA" name="Client" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSutrHxrEeelUbF9Rk4SIA _eSut03xrEeelUbF9Rk4SIA" relationships="_eSut0XxrEeelUbF9Rk4SIA" generalizations="_eSut0HxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSutynxrEeelUbF9Rk4SIA" name="Client Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSuty3xrEeelUbF9Rk4SIA" name="User Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSutzHxrEeelUbF9Rk4SIA" name="companyCompany Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSutzXxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSuty3xrEeelUbF9Rk4SIA _eSutynxrEeelUbF9Rk4SIA" relationshipEnds="_eSutrHxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutznxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSuty3xrEeelUbF9Rk4SIA" generalization="_eSut0HxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSutz3xrEeelUbF9Rk4SIA" name="ForeignKey2" attributes="_eSutzHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut03xrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Generalization xmi:id="_eSut0HxrEeelUbF9Rk4SIA" name="Generalization 2" supertype="_eSutvXxrEeelUbF9Rk4SIA" subtype="_eSutyXxrEeelUbF9Rk4SIA" foreignKey="_eSutznxrEeelUbF9Rk4SIA" alternateKey="_eSutv3xrEeelUbF9Rk4SIA" generalizationSet="_eSutwHxrEeelUbF9Rk4SIA"/>
+  <LogicalDataModel:Relationship xmi:id="_eSut0XxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSutyXxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut0nxrEeelUbF9Rk4SIA" verbPhrase="client" entity="_eSutwXxrEeelUbF9Rk4SIA" key="_eSutxHxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut03xrEeelUbF9Rk4SIA" verbPhrase="company" cardinality="ONE" entity="_eSutyXxrEeelUbF9Rk4SIA" key="_eSutz3xrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSut1HxrEeelUbF9Rk4SIA" name="Role" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut3HxrEeelUbF9Rk4SIA" relationships="_eSut2nxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSut1XxrEeelUbF9Rk4SIA" name="Role Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSut1nxrEeelUbF9Rk4SIA" name="employeeUser Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSut13xrEeelUbF9Rk4SIA" name="employeeEmployee Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSut2HxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSut1XxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut2XxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSut1nxrEeelUbF9Rk4SIA _eSut13xrEeelUbF9Rk4SIA" relationshipEnds="_eSut3HxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSut2nxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut1HxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut23xrEeelUbF9Rk4SIA" verbPhrase="role" entity="_eSutt3xrEeelUbF9Rk4SIA" key="_eSutunxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut3HxrEeelUbF9Rk4SIA" verbPhrase="employee" cardinality="ZERO_TO_MANY" entity="_eSut1HxrEeelUbF9Rk4SIA" key="_eSut2XxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSut3XxrEeelUbF9Rk4SIA" name="Department" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSutx3xrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSut3nxrEeelUbF9Rk4SIA" name="Department Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSut33xrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSut3nxrEeelUbF9Rk4SIA" relationshipEnds="_eSutx3xrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_eSut4HxrEeelUbF9Rk4SIA" name="SystemHistory" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut53xrEeelUbF9Rk4SIA" relationships="_eSut5XxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSut4XxrEeelUbF9Rk4SIA" name="SystemHistory Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSut4nxrEeelUbF9Rk4SIA" name="userUser Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSut43xrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSut4XxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut5HxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSut4nxrEeelUbF9Rk4SIA" relationshipEnds="_eSut53xrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSut5XxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut4HxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut5nxrEeelUbF9Rk4SIA" verbPhrase="systemHistory" entity="_eSutvXxrEeelUbF9Rk4SIA" key="_eSutv3xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut53xrEeelUbF9Rk4SIA" verbPhrase="user" cardinality="ZERO_TO_MANY" entity="_eSut4HxrEeelUbF9Rk4SIA" key="_eSut5HxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSut6HxrEeelUbF9Rk4SIA" name="SLA" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut83xrEeelUbF9Rk4SIA _eSut9nxrEeelUbF9Rk4SIA _eSut-XxrEeelUbF9Rk4SIA" relationships="_eSut8XxrEeelUbF9Rk4SIA _eSut9HxrEeelUbF9Rk4SIA _eSut93xrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSut6XxrEeelUbF9Rk4SIA" name="SLA Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSut6nxrEeelUbF9Rk4SIA" name="firmaCompany Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSut63xrEeelUbF9Rk4SIA" name="significanceSignificance Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSut7HxrEeelUbF9Rk4SIA" name="priorityPriority Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSut7XxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSut6XxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut7nxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSut6nxrEeelUbF9Rk4SIA" relationshipEnds="_eSut83xrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut73xrEeelUbF9Rk4SIA" name="ForeignKey2" attributes="_eSut63xrEeelUbF9Rk4SIA" relationshipEnds="_eSut9nxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut8HxrEeelUbF9Rk4SIA" name="ForeignKey3" attributes="_eSut7HxrEeelUbF9Rk4SIA" relationshipEnds="_eSut-XxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSut8XxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut6HxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut8nxrEeelUbF9Rk4SIA" verbPhrase="sLA" entity="_eSutwXxrEeelUbF9Rk4SIA" key="_eSutxHxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut83xrEeelUbF9Rk4SIA" verbPhrase="firma" cardinality="ONE" entity="_eSut6HxrEeelUbF9Rk4SIA" key="_eSut7nxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSut9HxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut6HxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut9XxrEeelUbF9Rk4SIA" verbPhrase="sLA" entity="_eSuuAnxrEeelUbF9Rk4SIA" key="_eSuuBHxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut9nxrEeelUbF9Rk4SIA" verbPhrase="significance" cardinality="ZERO_TO_MANY" entity="_eSut6HxrEeelUbF9Rk4SIA" key="_eSut73xrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSut93xrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut6HxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSut-HxrEeelUbF9Rk4SIA" verbPhrase="sLA" entity="_eSuuBXxrEeelUbF9Rk4SIA" key="_eSuuB3xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSut-XxrEeelUbF9Rk4SIA" verbPhrase="priority" cardinality="ZERO_TO_MANY" entity="_eSut6HxrEeelUbF9Rk4SIA" key="_eSut8HxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSut-nxrEeelUbF9Rk4SIA" name="Comment" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSuuAXxrEeelUbF9Rk4SIA _eSuuE3xrEeelUbF9Rk4SIA" relationships="_eSut_3xrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSut-3xrEeelUbF9Rk4SIA" name="Comment Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSut_HxrEeelUbF9Rk4SIA" name="ticketTicket Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSut_XxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSut-3xrEeelUbF9Rk4SIA" relationshipEnds="_eSuuE3xrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSut_nxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSut_HxrEeelUbF9Rk4SIA" relationshipEnds="_eSuuAXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSut_3xrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSut-nxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSuuAHxrEeelUbF9Rk4SIA" verbPhrase="comment" entity="_eSutoXxrEeelUbF9Rk4SIA" key="_eSutp3xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSuuAXxrEeelUbF9Rk4SIA" verbPhrase="ticket" cardinality="ZERO_TO_MANY" entity="_eSut-nxrEeelUbF9Rk4SIA" key="_eSut_nxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Entity xmi:id="_eSuuAnxrEeelUbF9Rk4SIA" name="Significance" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut9XxrEeelUbF9Rk4SIA _eSutsnxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSuuA3xrEeelUbF9Rk4SIA" name="Significance Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSuuBHxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSuuA3xrEeelUbF9Rk4SIA" relationshipEnds="_eSut9XxrEeelUbF9Rk4SIA _eSutsnxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_eSuuBXxrEeelUbF9Rk4SIA" name="Priority" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSut-HxrEeelUbF9Rk4SIA _eSuttXxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSuuBnxrEeelUbF9Rk4SIA" name="Priority Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSuuB3xrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSuuBnxrEeelUbF9Rk4SIA" relationshipEnds="_eSut-HxrEeelUbF9Rk4SIA _eSuttXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Entity xmi:id="_eSuuCHxrEeelUbF9Rk4SIA" name="Attachment" package="_eSutoHxrEeelUbF9Rk4SIA" relationshipEnds="_eSuuEXxrEeelUbF9Rk4SIA _eSuuFHxrEeelUbF9Rk4SIA" relationships="_eSuuD3xrEeelUbF9Rk4SIA _eSuuEnxrEeelUbF9Rk4SIA">
+    <attributes xmi:id="_eSuuCXxrEeelUbF9Rk4SIA" name="Attachment Id" dataType="INTEGER" required="true" surrogateKey="true"/>
+    <attributes xmi:id="_eSuuCnxrEeelUbF9Rk4SIA" name="ticketTicket Id" dataType="INTEGER" required="true"/>
+    <attributes xmi:id="_eSuuC3xrEeelUbF9Rk4SIA" name="commentComment Id" dataType="INTEGER" required="true"/>
+    <keys xsi:type="LogicalDataModel:PrimaryKey" xmi:id="_eSuuDHxrEeelUbF9Rk4SIA" name="PrimaryKey" attributes="_eSuuCXxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSuuDXxrEeelUbF9Rk4SIA" name="ForeignKey1" attributes="_eSuuCnxrEeelUbF9Rk4SIA" relationshipEnds="_eSuuEXxrEeelUbF9Rk4SIA"/>
+    <keys xsi:type="LogicalDataModel:ForeignKey" xmi:id="_eSuuDnxrEeelUbF9Rk4SIA" name="ForeignKey2" attributes="_eSuuC3xrEeelUbF9Rk4SIA" relationshipEnds="_eSuuFHxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Entity>
+  <LogicalDataModel:Relationship xmi:id="_eSuuD3xrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSuuCHxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSuuEHxrEeelUbF9Rk4SIA" verbPhrase="attachment" entity="_eSutoXxrEeelUbF9Rk4SIA" key="_eSutp3xrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSuuEXxrEeelUbF9Rk4SIA" verbPhrase="ticket" cardinality="ZERO_TO_MANY" entity="_eSuuCHxrEeelUbF9Rk4SIA" key="_eSuuDXxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+  <LogicalDataModel:Relationship xmi:id="_eSuuEnxrEeelUbF9Rk4SIA" relationshipType="NON_IDENTIFYING" owningEntity="_eSuuCHxrEeelUbF9Rk4SIA">
+    <relationshipEnds xmi:id="_eSuuE3xrEeelUbF9Rk4SIA" verbPhrase="attachment" entity="_eSut-nxrEeelUbF9Rk4SIA" key="_eSut_XxrEeelUbF9Rk4SIA"/>
+    <relationshipEnds xmi:id="_eSuuFHxrEeelUbF9Rk4SIA" verbPhrase="comment" cardinality="ZERO_TO_MANY" entity="_eSuuCHxrEeelUbF9Rk4SIA" key="_eSuuDnxrEeelUbF9Rk4SIA"/>
+  </LogicalDataModel:Relationship>
+</xmi:XMI>
