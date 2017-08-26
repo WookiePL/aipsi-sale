@@ -6738,3 +6738,934 @@ Caused by: java.lang.NullPointerException
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
 	at java.lang.reflect.Method.invoke(Unknown Source)
 	... 131 more
+
+!ENTRY org.eclipse.ui.ide 4 4 2017-08-23 13:32:29.447
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2017-08-23 13:32:29.458
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2017-08-23 13:32:29.458
+!MESSAGE The project description file (.project) for 'Sekcja7Java' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.814
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_REFERENCE_ID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.874
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCELINKID-REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.884
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_TARGETPATH-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.894
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKTYPE-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.894
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCEPATH-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.904
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_REFERENCETYPE-REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.914
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCELINKID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.924
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKNAME-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.934
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKTEXT-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.964
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_MODELINSTANCEID_REF-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.974
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCEPATH-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.984
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_TARGETLINKID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:33.994
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\LINK-BY_SOURCEPATH-BY_LINKTYPE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:34.004
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\string.db.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.index.StringDatabase.shutdown(StringDatabase.java:588)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:771)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 13 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-23 13:32:34.014
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: D:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\string.idx.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.StringDatabase.shutdown(StringDatabase.java:589)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:771)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+!SESSION 2017-08-26 11:18:47.928 -----------------------------------------------
+eclipse.buildId=unknown
+java.fullversion=JRE 1.7.0 IBM J9 2.6 Windows Server 2003 x86-32 20130306_140761 (JIT enabled, AOT enabled)
+J9VM - R26_Java726_SR4_FP1_20130306_1011_B140761
+JIT  - r11.b03_20130131_32403ifx1
+GC   - R26_Java726_SR4_FP1_20130306_1011_B140761
+J9CL - 20130306_140761
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product com.ibm.rational.rsa.product.v90.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product com.ibm.rational.rsa.product.v90.ide
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-26 11:19:32.632
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.xtools.emf.ram.ui 4 0 2017-08-26 11:19:32.872
+!MESSAGE RAM Client is not installed. Please install the RAM Client to enable the RAM integration functionality.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-26 11:25:10.308
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.cic.licensing.common.util 4 0 2017-08-26 11:25:10.428
+!MESSAGE LUM license expired for productID 45: Past the expiration date on license.
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:13.451
+!MESSAGE Link indexer shutdown-0 [EXCEPTION] Error during write back, record: 2 file Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\artifact.db
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during read of slot id 2 [eid=0]
+	at com.ibm.etools.references.internal.bplustree.db.Extent.readSplitIds(Extent.java:374)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.performUpdate(ExtentManager.java:1238)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.realUpdate(ExtentManager.java:1160)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager$WriteBack.run(ExtentManager.java:524)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager$WriteBack.executeNow(ExtentManager.java:345)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.joinPendingWrites(ExtentManager.java:2145)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.joinPendingWrites(ReferenceDatabase.java:729)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:737)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.lang.RuntimeException: com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during read (offset=124, length=1) from file: <none>
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.runUninterruptibly(IO.java:405)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.read(IO.java:235)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.readSplitIds(Extent.java:313)
+	... 15 more
+Caused by: com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during read (offset=124, length=1) from file: <none>
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.doRead(IO.java:277)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO$2.call(IO.java:239)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO$2.call(IO.java:1)
+	at com.ibm.etools.references.internal.ThreadSupport$ScheduledFutureTask$CallableWrapper.call(ThreadSupport.java:229)
+	... 6 more
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.read0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.read(FileDispatcherImpl.java:67)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:237)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:210)
+	at sun.nio.ch.FileChannelImpl.read(FileChannelImpl.java:155)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.doRead(IO.java:268)
+	... 9 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.444
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\artifact.db.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:752)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 12 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.454
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_REFERENCE_ID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.464
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCELINKID-REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.474
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_TARGETPATH-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.474
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKTYPE-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.484
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCEPATH-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.494
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_REFERENCETYPE-REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.504
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCELINKID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.504
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKNAME-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.514
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_LINKTEXT-LINK.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.544
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_MODELINSTANCEID_REF-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.554
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_SOURCEPATH-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.564
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\BY_TARGETLINKID-RESOLVED_REFERENCE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.564
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\LINK-BY_SOURCEPATH-BY_LINKTYPE.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.IndexManager.closeIndexes(IndexManager.java:1016)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:762)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.574
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\string.db.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.index.StringDatabase.shutdown(StringDatabase.java:588)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:771)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 13 more
+
+!ENTRY com.ibm.etools.references 4 0 2017-08-26 11:39:15.584
+!MESSAGE Exception during close of [e=0]
+!STACK 0
+com.ibm.etools.references.internal.bplustree.db.FatalIOException: Exception during closing  of: Y:\Sekcja7 Projekt AIPSI\Rational Software Architect\sekcja7\.metadata\.plugins\com.ibm.etools.references\refDB\string.idx.e0
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:440)
+	at com.ibm.etools.references.internal.bplustree.db.Extent.close(Extent.java:808)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.doClose(ExtentManager.java:1944)
+	at com.ibm.etools.references.internal.bplustree.db.ExtentManager.close(ExtentManager.java:1910)
+	at com.ibm.etools.references.internal.bplustree.tree.BPTree.close(BPTree.java:540)
+	at com.ibm.etools.references.internal.index.DiskBasedReferenceIndex.close(DiskBasedReferenceIndex.java:245)
+	at com.ibm.etools.references.internal.index.StringDatabase.shutdown(StringDatabase.java:589)
+	at com.ibm.etools.references.internal.index.ReferenceDatabase.shutdown(ReferenceDatabase.java:771)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:146)
+	at com.ibm.etools.references.internal.management.InternalReferenceManager$ShutdownCode.call(InternalReferenceManager.java:1)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:345)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:177)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1156)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:626)
+	at java.lang.Thread.run(Thread.java:780)
+	at com.ibm.etools.references.internal.ReferenceThreadFactrory$ReferencesThread.run(ReferenceThreadFactrory.java:37)
+Caused by: java.io.IOException: The parameter is incorrect.
+	at sun.nio.ch.FileDispatcherImpl.release0(Native Method)
+	at sun.nio.ch.FileDispatcherImpl.release(FileDispatcherImpl.java:117)
+	at sun.nio.ch.FileChannelImpl.release(FileChannelImpl.java:1093)
+	at sun.nio.ch.FileLockImpl.release(FileLockImpl.java:73)
+	at com.ibm.etools.references.internal.bplustree.db.IO$FileChannelIO.close(IO.java:426)
+	... 15 more
